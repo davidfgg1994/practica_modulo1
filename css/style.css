@@ -1,0 +1,298 @@
+@font-face {
+    font-family: 'hamlet';
+    src: url(../assets/fonts/Hamlet-Cicero12.otf) format('truetype');
+    font-weight: normal;
+    font-style: normal; 
+}
+@font-face {
+    font-family: 'alegreya';
+    src: url(../assets/fonts/AlegreyaSC-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    
+    }
+#cabeceraweb {
+    background-color: rgba(250, 152, 61, 0.623);
+    width: 100%;
+    background-image: url(../assets/camping-holanda-banner.png);
+    min-height: 50vh;
+    background-size: cover;
+    margin: 0
+
+}
+#cabecera_web_histo {
+    background-color: rgba(250, 152, 61, 0.623);
+    width: 100%;
+    background-image: url(../assets/antigua-postal-estacion-central-ferrocarril-amsterdam-holand-D_NQ_NP_346121-MLU20722472283_052016-F.jpeg);
+    min-height: 50vh;
+    background-size: cover;
+    margin: 0
+
+}
+
+#cabecera_web_visit {
+    background-color: rgba(250, 152, 61, 0.623);
+    width: 100%;
+    background-image: url(../assets/travel-694675_1920.jpg);
+    min-height: 50vh;
+    background-size: cover;
+    margin: 0
+
+}
+
+#cabecera_web_fiestas {
+    background-color: rgba(250, 152, 61, 0.623);
+    width: 100%;
+    background-image: url(../assets/fiestas_holanda.jpg);
+    min-height: 50vh;
+    background-size: cover;
+    margin: 0
+    
+}
+
+.cabecera2 {
+    background:linear-gradient(
+        to left,
+        rgb(255, 255, 224),
+        rgb(163, 0, 0));
+    margin-bottom: 1rem;
+    margin-top: -1rem;
+    color: rgb(255, 197, 88) ;
+
+  font-family: 'alegreya';
+ padding: 0.8rem;
+ background-size: contain, cover;
+margin-left: -3rem;
+margin-top: 0
+
+
+
+
+}
+
+body {
+background-color:rgb(255, 255, 224);
+margin: 0
+}
+
+.imagen_amsterdam {
+width: 100%;
+display: block;
+/* float: left; */
+margin-right: 1rem;
+border-radius: 5%;
+}
+.menu li  {
+display: inline-block;
+background-color: brown;
+
+margin-left: 0%;
+margin-right: 0%;
+color:rgba(253, 187, 124, 0.897);
+margin-bottom: 1%;
+text-decoration: none;
+
+}
+
+.menu ul {
+     text-align: center;
+     margin-bottom: 0%;
+     
+
+}
+.tabla {
+    border-spacing: 5px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 2rem;
+
+}
+th  {
+    background: brown;
+    color:rgb(255, 255, 224);
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+td {
+    border: double 3px;
+
+}
+
+header .banner {
+font-family:'hamlet';
+color: rgb(250, 250, 207);
+-webkit-text-stroke: 0.2px rgb(150, 0, 0);
+height: 100%;
+font-size: 5rem;
+background-image: url(/Amsterdam/assets/media/Holanda_banner.png);
+text-align: center;
+margin-top: 0%;
+margin-bottom: 2%;
+width: 100%;
+
+
+}
+
+p {
+    color: rgb(53, 53, 53);
+   
+}
+
+.plaza_dam {
+width: 20%;
+display: block;
+float: right;
+border-radius: 5%;
+margin-left: 1rem;
+    
+}
+header {
+    font-family: 'alegreya'
+    
+}
+.menu li a:hover {
+    background-color:rgba(253, 187, 124, 0.897) ;
+    color: rgb(163, 0, 0);
+    font-size: 1.3rem
+    
+
+}
+.main header {
+    background-image: url(../assets/camping-holanda-banner.png)
+}
+.menu {
+    text-align: center;
+    
+ 
+}
+.menu li a {
+    text-decoration: none;
+    color: rgba(253, 187, 124, 0.897);
+    display: block;
+    padding: 20px 70px;
+    
+}
+.main1 {
+    margin: 0 40px;
+   
+}
+.tabla1 {
+    display: block;
+}
+.mapa_amsterdam {
+    width: 90%;
+    border-radius: 5%;
+    margin-top: 10px;
+    display: block;
+    margin: auto;
+   
+    
+    
+}
+
+.vuelos {
+    width: 40%;
+    position: absolute;
+    margin-bottom: 30px;
+    
+}
+
+.tabla_demografica {
+    background:linear-gradient(
+        to left,
+        rgb(255, 255, 224),
+        rgb(163, 0, 0));
+    margin-bottom: 1rem;
+    margin-top: -1rem;
+    color: rgb(255, 197, 88) ;
+
+  font-family: 'alegreya';
+ padding: 0.8rem;
+ background-size: contain, cover;
+margin-left: -3rem;
+margin-top: 0
+
+}
+footer{
+    background-color: rgb(163, 0, 0);
+    color: whitesmoke;
+    margin-top: 10px;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    height: 1.3rem;
+    align-items: flex-start;
+    text-align: center
+}
+
+footer:hover {
+    height: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    align-items: center;
+}
+.overflow {
+    height: 40vh;
+    overflow: scroll;
+}
+
+.video {
+    float: right;
+    position: relative;
+    top: 0.5rem;
+    margin-bottom: 30px;
+
+}
+div.columnas {
+    display: flex;
+    width: 100%
+
+}
+
+.columnas section {
+    width: 30%;
+    padding: 1rem
+}
+.columna2, .columna3 {
+    margin-top: -1rem;
+}
+
+
+div.centrado {
+    align-items: center;
+    text-align: center;
+}
+
+.guerra {
+    padding: 10px; 
+    margin: 10px; 
+    border: 2px solid rgb(231, 170, 0); 
+    float: top right; 
+    width: 500px;
+}
+
+.canales_amsterdam {
+    width: 20%;
+    font-size: 10rem;
+    display: block;
+    float: left;
+    border-radius: 5%;
+    margin-right: 1rem;
+        
+    }
+
+    .bloque {
+        padding-bottom: 4%;
+    }
+
+  .padding{
+      padding-bottom: 4%;
+  }
+
